@@ -7,12 +7,10 @@ import shutil
 import threading
 import math
 
-#Uncomment next line for synchronized current directory
-#synchronized_this_directory = os.path.dirname(__file__)
-#Or input another path (copy from this directory):
-synchronized_this_directory = "//Avers/Install"
+#Copy from this directory:
+synchronized_this_directory = "from_this_directory"
 #to this place
-copy_to_this_place = "D:/Soft_2"
+copy_to_this_place = "to_this_directory"
 
 """
 Get two files - original_file and duplicate_file, than verificated size of this files.
